@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZemCal Support</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f7f4ed; --card:#fffdf8; --ink:#25243a; --muted:#64657a; --accent:#3f9d70; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#171820; --card:#22242e; --ink:#eeeef4; --muted:#b4b5c3; --accent:#73d09b; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:840px; margin:0 auto; padding:56px 24px 80px; }
+    h1 { margin:0 0 8px; font-size:clamp(2rem,5vw,3.2rem); letter-spacing:-.04em; }
+    h2 { margin:38px 0 12px; font-size:1.4rem; }
+    p, li { color:var(--muted); }
+    section { background:var(--card); border-radius:18px; padding:28px 30px; margin:24px 0; box-shadow:0 4px 20px #0000000b; }
+    a { color:var(--accent); }
+    .meta { color:var(--muted); }
+    .ko { border-top:1px solid color-mix(in srgb,var(--muted),transparent 70%); margin-top:38px; padding-top:24px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>ZemCal Support</h1>
+  <p class="meta">Help for ZemCal, a macOS menu bar calendar and meeting assistant.</p>
+  <section>
+    <h2>Getting started</h2>
+    <ol>
+      <li>Launch ZemCal and click its date badge in the macOS menu bar.</li>
+      <li>Choose <strong>Connect calendars</strong> and allow Calendar access.</li>
+      <li>Open <strong>Preferences → calendar</strong> to select calendars.</li>
+      <li>Open <strong>Preferences → reminders</strong> to configure meeting reminders.</li>
+    </ol>
+
+    <h2>Common issues</h2>
+    <h3>The menu bar icon is not visible</h3>
+    <p>On newer macOS versions, enable ZemCal in <strong>System Settings → Menu Bar → Allow in the Menu Bar</strong>. You can relaunch the app from Finder or Spotlight to open Preferences.</p>
+
+    <h3>Calendars are not shown</h3>
+    <p>Open <strong>System Settings → Privacy &amp; Security → Calendars</strong> and allow ZemCal full access. Then return to ZemCal and choose the calendars to display in Preferences.</p>
+
+    <h3>Meeting links do not open</h3>
+    <p>Check the service and browser/app selection in Preferences. ZemCal asks macOS to open the link; sign-in, waiting rooms, and admission are handled by the meeting service.</p>
+
+    <h2>Contact</h2>
+    <p>For support, bug reports, or accessibility questions, email the developer through the contact address associated with the ZemCal App Store listing. Please do not include private calendar events, meeting links, or other sensitive information in a support request.</p>
+
+    <div class="ko" lang="ko">
+      <h2>한국어 도움말</h2>
+      <p>macOS 메뉴바 달력 및 회의 도우미 ZemCal 사용 안내입니다.</p>
+      <h3>시작하기</h3>
+      <ol>
+        <li>ZemCal을 실행하고 macOS 메뉴바의 날짜 배지를 클릭합니다.</li>
+        <li><strong>Connect calendars</strong>를 선택하고 캘린더 접근을 허용합니다.</li>
+        <li><strong>설정 → calendar</strong>에서 표시할 캘린더를 선택합니다.</li>
+        <li><strong>설정 → reminders</strong>에서 회의 알림을 설정합니다.</li>
+      </ol>
+      <h3>메뉴바 아이콘이 보이지 않을 때</h3>
+      <p>최신 macOS에서는 <strong>시스템 설정 → 메뉴 막대 → 메뉴 막대에 표시 허용</strong>에서 ZemCal을 켜세요. Finder 또는 Spotlight에서 다시 실행하면 설정에 접근할 수 있습니다.</p>
+      <h3>캘린더가 보이지 않을 때</h3>
+      <p><strong>시스템 설정 → 개인정보 보호 및 보안 → 캘린더</strong>에서 ZemCal의 전체 접근을 허용한 뒤 설정에서 표시할 캘린더를 선택하세요.</p>
+      <h3>문의</h3>
+      <p>문의 시 개인 일정 제목, 회의 링크 및 민감한 정보를 포함하지 마세요. App Store 앱 페이지에 표시된 개발자 연락처를 이용해 주세요.</p>
+    </div>
+  </section>
+  <p><a href="./">Privacy Policy</a></p>
+</main>
+</body>
+</html>

@@ -8,4 +8,10 @@ After enabling GitHub Pages for this repository from **Settings → Pages → De
 https://luke-cha.github.io/zemcal-privacy/
 ```
 
+Support URL:
+
+```text
+https://luke-cha.github.io/zemcal-privacy/support.html
+```
+
 Use that URL as ZemCal's App Store Connect Privacy Policy URL.
