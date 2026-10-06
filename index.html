@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZemCal Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f7f4ed; --card:#fffdf8; --ink:#25243a; --muted:#64657a; --accent:#3f9d70; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#171820; --card:#22242e; --ink:#eeeef4; --muted:#b4b5c3; --accent:#73d09b; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { max-width:840px; margin:0 auto; padding:56px 24px 80px; }
+    header { margin-bottom:42px; }
+    h1 { margin:0 0 8px; font-size:clamp(2rem,5vw,3.2rem); letter-spacing:-.04em; }
+    h2 { margin:42px 0 14px; font-size:1.45rem; }
+    h3 { margin:28px 0 8px; font-size:1.1rem; }
+    p, li { color:var(--muted); }
+    header p { margin:0; }
+    section { background:var(--card); border-radius:18px; padding:28px 30px; margin:24px 0; box-shadow:0 4px 20px #0000000b; }
+    ul { padding-left:1.35rem; }
+    a { color:var(--accent); }
+    .meta { font-size:.92rem; }
+    .ko { border-top:1px solid color-mix(in srgb,var(--muted),transparent 70%); margin-top:42px; padding-top:26px; }
+    footer { margin-top:34px; font-size:.9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>ZemCal Privacy Policy</h1>
+    <p class="meta">Last updated: October 6, 2026 · Developer: Luke Cha</p>
+  </header>
+
+  <section>
+    <h2>English</h2>
+    <p><strong>ZemCal collects no data.</strong> The developer receives nothing from your Mac.</p>
+
+    <h3>Calendar data</h3>
+    <p>With your permission, ZemCal reads events from the Calendar database on your Mac through Apple's EventKit to show your agenda, countdown, and meeting reminders. It creates or deletes an event only when you explicitly choose to. Event titles, notes, locations, attendees, and links are processed on your device only and are never uploaded.</p>
+
+    <h3>Local settings</h3>
+    <p>Preferences such as theme, text size, language, calendar selection, snooze, and mute records are stored on your Mac in the app's sandbox. Reminder records store only a SHA-256 identifier and an expiry time, not event titles, notes, or links.</p>
+
+    <h3>Meeting links</h3>
+    <p>When you press Join, ZemCal asks macOS to open the link in the app or browser you chose. The meeting service, such as Google Meet or Zoom, then handles sign-in and access under its own privacy policy. ZemCal is not affiliated with or endorsed by Google or Zoom.</p>
+
+    <h3>No tracking</h3>
+    <p>ZemCal has no user accounts, analytics or advertising SDKs, third-party libraries, or network service of its own. It does not automatically join meetings or send calendar data to a server.</p>
+
+    <h3>Privacy mode</h3>
+    <p>“Hide meeting details” hides titles, locations, notes, and calendar names in the ZemCal interface, for example before screen sharing.</p>
+
+    <h3>Managing access and data</h3>
+    <p>You can turn off calendar access in <em>System Settings → Privacy &amp; Security → Calendars</em>. You can remove ZemCal and its local data using macOS app and container management tools. Contact us if you need help.</p>
+
+    <h3>Contact</h3>
+    <p><a href="https://github.com/luke-cha/zem-cal/issues">https://github.com/luke-cha/zem-cal/issues</a></p>
+
+    <div class="ko" lang="ko">
+      <h2>한국어</h2>
+      <p><strong>ZemCal은 데이터를 수집하지 않습니다.</strong> 개발자에게 Mac의 정보가 전송되지 않습니다.</p>
+
+      <h3>캘린더 데이터</h3>
+      <p>사용자가 허용하면 Apple EventKit으로 이 Mac의 캘린더 일정을 읽어 일정 목록·카운트다운·회의 알림을 표시합니다. 일정 생성·삭제는 사용자가 직접 선택했을 때만 수행합니다. 일정 제목·메모·장소·참석자·링크는 기기 안에서만 처리되며 업로드되지 않습니다.</p>
+
+      <h3>로컬 설정</h3>
+      <p>테마·글씨 크기·언어·캘린더 선택·미루기·음소거 기록은 Mac의 앱 샌드박스에 저장됩니다. 알림 기록에는 제목·메모·링크 대신 SHA-256 식별자와 만료 시각만 저장됩니다.</p>
+
+      <h3>회의 링크</h3>
+      <p>참가 버튼을 누르면 ZemCal은 사용자가 선택한 앱 또는 브라우저에서 링크를 열도록 macOS에 요청합니다. 로그인과 입장은 Google Meet·Zoom 등 해당 서비스가 자체 개인정보 처리방침에 따라 처리합니다. ZemCal은 Google 또는 Zoom과 제휴하거나 보증받은 앱이 아닙니다.</p>
+
+      <h3>추적 없음</h3>
+      <p>사용자 계정, 분석·광고 SDK, 서드파티 라이브러리, 자체 네트워크 서비스가 없습니다. 회의에 자동 입장하거나 캘린더 데이터를 서버로 전송하지 않습니다.</p>
+
+      <h3>프라이버시 모드</h3>
+      <p>“회의 정보 숨기기” 기능은 화면 공유 전과 같은 상황에서 ZemCal 화면의 제목·장소·메모·캘린더 이름을 숨깁니다.</p>
+
+      <h3>접근 권한 및 데이터 관리</h3>
+      <p><em>시스템 설정 → 개인정보 보호 및 보안 → 캘린더</em>에서 캘린더 접근 권한을 끌 수 있습니다. macOS의 앱 및 컨테이너 관리 기능으로 ZemCal과 로컬 데이터를 삭제할 수 있습니다. 도움이 필요하면 문의해 주세요.</p>
+
+      <h3>문의</h3>
+      <p><a href="https://github.com/luke-cha/zem-cal/issues">https://github.com/luke-cha/zem-cal/issues</a></p>
+    </div>
+  </section>
+
+  <footer><a href="https://github.com/luke-cha/zem-cal">ZemCal</a> · Privacy Policy</footer>
+</main>
+</body>
+</html>
